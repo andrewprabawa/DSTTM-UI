@@ -1,3 +1,5 @@
+import { type StandardTextFieldProps } from "@mui/material";
+
 /**
  * Props for the custom TextField component.
  *
@@ -9,8 +11,6 @@
  * @property error - If true, marks the input field as having an error.
  * @property onChange - Change event handler for the input field.
  */
-import { type StandardTextFieldProps } from "@mui/material";
-
 type Props = Pick<StandardTextFieldProps, 'placeholder' | 'defaultValue' | 'disabled' | 'error' | 'onChange'>;
 
 export type { Props };

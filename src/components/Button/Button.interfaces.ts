@@ -11,7 +11,6 @@ import { type ButtonProps } from "@mui/material";
  * @property onClick - Click event handler for the button.
  * @property label - The text displayed inside the button.
  */
-
 type Props = Pick<ButtonProps, 'disabled' | 'onClick'> & {
   label: string;
   color: 'primary' | 'secondary' | 'error';
