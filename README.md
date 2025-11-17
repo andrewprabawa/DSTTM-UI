@@ -35,6 +35,8 @@ to build the package simply run
 npm run build
 ```
 
+github link:[DSTTM-UI](https://andrewprabawa.github.io/DSTTM-UI/)
+
 ## Expected Time
 
 Around 2 - 3 hours

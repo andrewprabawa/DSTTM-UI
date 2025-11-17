@@ -8,6 +8,8 @@ export const darkTheme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
+          fontFamily: 'Inter',
+          fontWeight: 500,
           borderRadius: "4px",
           padding: "8px 12px",
           "&:focus": {
@@ -22,6 +24,8 @@ export const darkTheme = createTheme({
     MuiTextField: {
       styleOverrides: {
         root: {
+          fontFamily: 'Inter',
+          fontWeight: 400,
           minWidth: "516px",
           borderWidth: "1px",
           "&:focus": {
@@ -41,6 +45,8 @@ export const lightTheme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
+          fontFamily: 'Inter',
+          fontWeight: 500,
           borderRadius: "4px",
           padding: "8px 12px",
           "&:focus": {
@@ -55,6 +61,8 @@ export const lightTheme = createTheme({
     MuiTextField: {
       styleOverrides: {
         root: {
+          fontFamily: 'Inter',
+          fontWeight: 400,
           minWidth: "516px",
           borderWidth: "1px",
           "&:focus": {
