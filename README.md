@@ -29,13 +29,20 @@ npm run dev
 Then open your browser to [localhost:3000](http://localhost:3000).
 
 **edited**
-to build the package simply run 
+to build the package simply run
 ```bash
-# create dist package to export to npm
+# create dist directory to export to npm
 npm run build
+npm link
+cd your/react/project
+
+# make sure that your poject have these installed
+npm install @mui/material @emotion/react @emotion/styled
+npm link design-system-tech-test
 ```
 
-github link:[DSTTM-UI](https://andrewprabawa.github.io/DSTTM-UI/)
+## storybook link
+this is the github pages link for story book:[DSTTM-UI](https://andrewprabawa.github.io/DSTTM-UI/)
 
 ## Expected Time
 

@@ -1,3 +1,3 @@
-export { Button } from './Button/Button';
-export { TextField } from './TextField/TextField';
+export * from './Button';
+export * from './TextField';
 

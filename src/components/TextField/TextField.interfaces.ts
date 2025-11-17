@@ -1,7 +1,7 @@
 import { type StandardTextFieldProps } from "@mui/material";
 
 /**
- * Props for the custom TextField component.
+ * ITextFieldProps for the custom TextField component.
  *
  * Includes selected MUI StandardTextFieldProps fields for input configuration.
  *
@@ -11,6 +11,6 @@ import { type StandardTextFieldProps } from "@mui/material";
  * @property error - If true, marks the input field as having an error.
  * @property onChange - Change event handler for the input field.
  */
-type Props = Pick<StandardTextFieldProps, 'placeholder' | 'defaultValue' | 'disabled' | 'error' | 'onChange'>;
+type ITextFieldProps = Pick<StandardTextFieldProps, 'placeholder' | 'defaultValue' | 'disabled' | 'error' | 'onChange'>;
 
-export type { Props };
+export type { ITextFieldProps };

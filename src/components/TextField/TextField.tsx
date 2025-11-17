@@ -1,10 +1,10 @@
 import { BaseTextField } from "./TextField.styles";
-import type { Props } from "./TextField.interfaces";
+import type { ITextFieldProps } from "./TextField.interfaces";
 
 /**
  * TextField component renders a styled MUI TextField.
  *
- * @param props - Props for the TextField component
+ * @param props - ITextFieldProps for the TextField component
  * @param props.placeholder - Placeholder text for the input field.
  * @param props.defaultValue - Default value for the input field.
  * @param props.disabled - If true, disables the input field.
@@ -12,7 +12,7 @@ import type { Props } from "./TextField.interfaces";
  * @param props.onChange - Change event handler for the input field.
  * @returns A styled text field element
  */
-const TextField = (props: Props) => (
+const TextField = (props: ITextFieldProps) => (
   <BaseTextField {...props} />
 );
 

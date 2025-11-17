@@ -2,6 +2,7 @@
   "name": "design-system-tech-test",
   "version": "0.0.1",
   "type": "module",
+  "main": "src/index.ts",
   "files": [
     "dist"
   ],
@@ -12,13 +13,13 @@
     "lint": "eslint .",
     "format": "prettier --write ."
   },
-  "dependencies": {
+  "peerDependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@fontsource/inter": "^5.2.8",
-    "@mui/material": "^7.3.2",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "@mui/material": "^7.3.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

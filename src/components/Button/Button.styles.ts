@@ -1,6 +1,6 @@
 import { styled } from "@mui/material/styles";
 import { Button } from "@mui/material";
-import type { Props } from "./Button.interfaces";
+import type { IButtonProps } from "./Button.interfaces";
 
 /**
  * BaseButton is a styled MUI Button component with custom color and variant styles.
@@ -10,7 +10,7 @@ import type { Props } from "./Button.interfaces";
  * @param variant - Button variant (contained, outlined)
  * @param theme - Theme object for applying dark mode styles
  */
-export const BaseButton = styled(Button)<Props>(
+export const BaseButton = styled(Button)<IButtonProps>(
   ({ color, variant, theme }) => [
     {
         ...(variant === 'contained' && {

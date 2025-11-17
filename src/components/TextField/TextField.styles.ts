@@ -1,6 +1,6 @@
 import { styled } from "@mui/material/styles";
 import { TextField } from "@mui/material";
-import type { Props } from "./TextField.interfaces";
+import type { ITextFieldProps } from "./TextField.interfaces";
 
 /**
  * BaseTextField is a styled MUI TextField component with custom styles for light and dark themes.
@@ -8,7 +8,7 @@ import type { Props } from "./TextField.interfaces";
  * Styles are applied for placeholder, error, disabled, and focus states.
  * @param theme - Theme object for applying dark mode styles
  */
-export const BaseTextField = styled(TextField)<Props>(
+export const BaseTextField = styled(TextField)<ITextFieldProps>(
   ({ theme }) => [
     {
       background: "#FBFBFC",

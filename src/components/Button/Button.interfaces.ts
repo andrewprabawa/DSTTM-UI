@@ -1,7 +1,7 @@
 import { type ButtonProps } from "@mui/material";
 
 /**
- * Props for the custom Button component.
+ * IButtonProps for the custom Button component.
  *
  * Includes selected MUI ButtonProps fields and a label for the button text.
  *
@@ -11,10 +11,10 @@ import { type ButtonProps } from "@mui/material";
  * @property onClick - Click event handler for the button.
  * @property label - The text displayed inside the button.
  */
-type Props = Pick<ButtonProps, 'disabled' | 'onClick'> & {
+type IButtonProps = Pick<ButtonProps, 'disabled' | 'onClick'> & {
   label: string;
   color: 'primary' | 'secondary' | 'error';
   variant: 'contained' | 'outlined';
 };
 
-export type { Props };
+export type { IButtonProps };
