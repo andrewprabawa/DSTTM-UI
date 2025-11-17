@@ -8,6 +8,7 @@ export const darkTheme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
+          textTransform: 'none',
           fontFamily: 'Inter',
           fontWeight: 500,
           borderRadius: "4px",
@@ -45,12 +46,13 @@ export const lightTheme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
+          textTransform: 'none',
           fontFamily: 'Inter',
           fontWeight: 500,
           borderRadius: "4px",
           padding: "8px 12px",
           "&:focus": {
-            boxShadow: `0px 0px 0px 3px #3ABCB7, 0px 0px 0px 1px #FFFFFF`,
+            boxShadow: `0px 0px 0px 3px #778e8dff, 0px 0px 0px 1px #FFFFFF`,
           },
         },
         outlined: {
